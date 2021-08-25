@@ -1,0 +1,102 @@
+:root {
+    --space: 2rem;
+}
+
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.nav-left, .nav-right {
+    float: left;
+    line-height: 3rem;
+    width: 50%;
+}
+
+.nav-left {
+    /* width: 40%; */
+    /* margin-top: 1.2rem; */
+}
+
+ul, li {
+    float: left;
+    /* width: 30%; */
+}
+
+ul li {
+    list-style: none;
+    padding-right: 2rem;
+
+}
+
+ul a {
+    font-size: 1.5rem;
+    color: black;
+    padding-left: 2.5rem;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.nav-right {
+    /* width: 60%; */
+    margin-top: 2rem;
+}
+
+h3, h4 {
+    /* float: left; */
+    width: 50%;
+}
+
+h3 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    padding-left: 6rem;
+}
+
+h4 {
+    text-align: right;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    padding-right: 2rem;
+}
+
+
+.row {
+    margin: 2rem auto;
+    max-width: 900px;
+}
+
+
+[class^="col-"]:not(:last-child) {
+    margin-right: var(--space);
+}
+
+[class^="col-"] {
+    float: left;
+    /* padding: 0 1rem; */
+}
+
+.row:not(:last-child) {
+    margin-bottom: var(--space, 20px);
+}
+
+.col-1-of-4 {
+    width: calc((100% - 3 * (var(--space))) / 4);
+}
+
+
+.clearfix::after {
+    clear: both;
+    display: block;
+    content: "";
+}
+
