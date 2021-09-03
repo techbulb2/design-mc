@@ -44,6 +44,11 @@ ul li {
 
 }
 
+
+.name {
+    padding-left: 3rem;
+}
+
 ul a {
     font-size: 1.5rem;
     color: black;
@@ -219,8 +224,39 @@ h3 {
 }
 
 footer {
-    background-color: #edeff1;
+    background-color: #f8fafb;
     padding: 5rem 0;
+}
+
+.first-footer {
+    text-align: center;
+}
+
+.list {
+    margin: 1rem auto;
+    max-width: 370px;
+}
+
+.card1 {
+    border: 1px solid #f4f6f7;
+    font-size: 1.5rem;
+    margin: 2rem 0;
+    text-transform: capitalize;
+}
+
+.btn-secondary {
+    text-align: right;
+    background-color: #e4f2f3;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    color: #a5cfca;
+    text-align: right;
+}
+
+.all {
+    background-color: #504697;
+    color: #bebbe9;
 }
 
 
@@ -245,18 +281,17 @@ footer {
 
      .nav-left, .nav-right {
          width: 100%;
-         line-height: 0%;
      }
 
      .nav-left {
-        margin: 2rem auto;
+        margin: 1rem auto;
         padding-left: 0;
     }
 
      .nav-right {
-        margin: 2rem auto;
-         margin-top: 0;
+        margin: 1rem auto;
      }
+
 
      ul li {
         padding-right: 1rem;
@@ -267,7 +302,7 @@ footer {
      }
 
      .first-main {
-         background-image: url(../images/img4.png);
+         /* background-image: url(../images/img4.png); */
          background-repeat: no-repeat;
          background-size: 100%;
          margin: 0;
@@ -280,8 +315,14 @@ footer {
 
      }
 
+     .image-container {
+         width: 40rem;
+     }
+
+
      img {
-         width: 0%;
+         width: 30rem;
+         height: 40rem;
      }
 
      p {
