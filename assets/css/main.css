@@ -251,7 +251,8 @@ footer {
     outline: none;
     text-transform: capitalize;
     color: #a5cfca;
-    text-align: right;
+    padding-left: 1rem;
+    
 }
 
 .all {
@@ -294,7 +295,7 @@ footer {
 
 
      ul li {
-        padding-right: 1rem;
+        padding-right: 10px 10px 10px 0px;
     }
 
      .first-left, .first-right {
@@ -411,7 +412,7 @@ footer {
         padding: 1rem;
         margin-left: 3rem;
     }
-
+     
 }
 
 
