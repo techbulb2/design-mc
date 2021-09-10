@@ -250,10 +250,25 @@ footer {
     border: none;
     outline: none;
     text-transform: capitalize;
-    color: #a5cfca;
-    padding-left: 1rem;
+    color: #a5cfca; width: 8%;
+    padding: .5rem;
+    margin-top: 1rem;
+    cursor: pointer;
     
 }
+
+.p, .btn-secondary {
+    float: left;
+}    
+
+.p {
+    font-size: 1.5rem;
+    width: 85%;
+    font-weight: lighter;
+    padding-left: 4rem;
+}
+
+
 
 .all {
     background-color: #504697;
@@ -302,18 +317,9 @@ footer {
          float: none;
      }
 
-     .first-main {
-         /* background-image: url(../images/img4.png); */
-         background-repeat: no-repeat;
-         background-size: 100%;
-         margin: 0;
-     }
-
      h1 {
          font-size: 5rem;
          padding-left: 3rem;
-         /* text-align: center; */
-
      }
 
      .image-container {
@@ -412,7 +418,8 @@ footer {
         padding: 1rem;
         margin-left: 3rem;
     }
-     
+
+    
 }
 
 
