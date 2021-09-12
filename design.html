@@ -9,23 +9,22 @@
 </head>
 <body>
    <header>
-        <nav>
-            <div class="nav-container clearfix">
-                <div class="nav-left clearfix">
-                    <h3 class="head">designspace</h3>
-                </div>
-                <div class="nav-right clearfix">
-                    <ul class="clearfix">
-                        <li><a href="#">marketplace</a></li>
-                        <li><a href="#">affiliate</a></li>
-                        <li><a href="#">library app</a></li>
-                        <li class="name">
-                            <button class="btn-btn">login</button>
-                        </li>
-                    </ul>
-                </div>
+       <div class="nav-container clearfix">
+           <div class="nav-left clearfix">
+               <h3 class="head">designspace</h3>
             </div>
-        </nav>
+            <nav class="clearfix">
+                <ul class="ul clearfix">
+                    <li><a href="#">marketplace</a></li>
+                    <li><a href="#">affiliate</a></li>
+                    <li><a href="#">library app</a></li>
+                    <li class="name">
+                        <a href="#" class="btn-btn">login</a>
+                        <!-- <button class="btn-btn">login</button> -->
+                    </li>
+                </ul>
+            </nav>
+        </div>
    </header>
    <main class="clearfix">
        <div class="first-main clearfix">
@@ -37,22 +36,20 @@
            <div class="first-right">
                 <h1>Unlimited design 
                     <br> subscriptions to unlock
-                    <br> your full pontectial business</h1>
+                    <br> your full pontectial business
+                </h1>
                 <p>with one monthly flat rate, you can finally focus on your business and fun 
                     <br> stuff, and delegate the rest to us. Say goodbye to all those unprofessional
                     <br> designs that are holding you back from scaling up.</p>
            </div>
            <!-- <div class="list clearfix"> -->
-               <ul class="clearfix">
+               <ul class="ul clearfix">
                    <li><span>techstars_</span></li>
                    <li>Combinator</li>
                    <li>randstad</li>
                    <li>Phonrwagon</li>
-                   <li>
-                       <div class="btn">
-                           <button class="btn-primary">see <span class="than">&#8595;</span>
-                               <br> pricing</button>
-                       </div>
+                   <li class="class">
+                        <a href="#" class="btn-primary">see pricing <span class="than">&RightArrow;</span></a>
                    </li>
                </ul>
            <!-- </div> -->
@@ -106,8 +103,8 @@
            <h4>our services </h4>
            <h2>Services Include</h2>
            <div class="list clearfix">
-               <ul>
-                   <li>
+               <ul class="ul">
+                    <li>
                        <button class="btn-btn all">all</button>
                     </li>
                     <li>
@@ -123,125 +120,93 @@
             <div class="row clearfix">
                 <div class="col-1-of-3">
                     <div class="card1 clearfix">
-                        <div class="p-container clearfix">
-                            <p class="p">landing page</p> 
-                             <button class="btn-secondary">pro</button>
-                        </div>
-                    </div>
-                    <div class="card1 clearfix">
-                        <div class="p-container clearfix">
-                            <p class="p">light website design</p> 
-                             <button class="btn-secondary">pro</button>
-                        </div>
-                    </div>
-                    <div class="card1 clearfix">
-                        <div class="p-container clearfix">
-                            <p class="p">logo design</p> 
-                             <button class="btn-secondary">pro</button>
-                        </div>
-                    </div>
-                    <div class="card1 clearfix">
-                        <div class="p-container clearfix">
-                            <p class="p">brandbook guildlines</p> 
-                             <button class="btn-secondary">pro</button>
-                        </div>
-                    </div>
-                    <div class="card1 clearfix">
-                        <div class="p-container clearfix">
-                            <p class="p">presentation deck</p> 
-                             <button class="btn-secondary">pro</button>
-                        </div>
-                    </div>
-                    <div class="card1 clearfix">
-                        <div class="p-container clearfix">
-                            <p class="p">mobile app design</p> 
-                             <button class="btn-secondary">pro</button>
-                        </div>
-                    </div>
-                    <div class="card1 clearfix">
-                        <div class="p-container clearfix">
-                            <p class="p">uI design</p> 
-                             <button class="btn-secondary">pro</button>
-                        </div>
-                    </div>
-                    <div class="card1 clearfix">
-                        <div class="p-container clearfix">
-                            <p class="p">marketplace unlimited pass</p> 
-                             <button class="btn-secondary">pro</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-1-of-3">
-                    <div class="card1 clearfix">
-                        <ul>
-                            <li>flyer and brochure design</li>
-                        </ul>
-                    </div>
-                    <div class="card1 clearfix">
-                        <ul>
-                            <li>business cards and stationary</li>
-                        </ul>
-                    </div>
-                    <div class="card1 clearfix">
-                        <ul>
-                            <li>blog images</li>
-                        </ul>
-                    </div>
-                    <div class="card1 clearfix">
-                        <ul>
-                            <li>events graphics</li>
-                        </ul>
-                    </div>
-                    <div class="card1 clearfix">
-                        <ul>
-                            <li>podcasts graphics</li>
-                        </ul>
-                    </div>
-                    <div class="card1 clearfix">
-                        <ul>
-                            <li>book cover</li>
-                        </ul>
-                    </div>
-                    <div class="card1 clearfix">
-                        <ul>
-                            <li>minor edits to your existing design</li>
+                        <ul class="uls clearfix">
+                            <div class="p-container clearfix">
+                                <li class="p">landing page</li>
+                                <li class="btn-secondary"><a href="#">pro</a></li>
+                            </div>
+                            <div class="p-container clearfix">
+                                <li class="p">light website design</li> 
+                                 <li class="btn-secondary"><a href="#">pro</a></li>
+                            </div>
+                            <div class="p-container clearfix">
+                                <li class="p">logo design</li> 
+                                <li class="btn-secondary"><a href="#">pro</a></li>
+                            </div>
+                            <div class="p-container clearfix">
+                                <li class="p">brandbook guildlines</li>
+                                <li class="btn-secondary"><a href="#">pro</a></li>
+                            </div>
+                            <div class="p-container clearfix">
+                                <li class="p">presentation deck</li>
+                                <li class="btn-secondary"><a href="#">pro</a></li>     
+                            </div>
+                            <div class="p-container clearfix">
+                                <li class="p">mobile app design</li> 
+                                <li class="btn-secondary"><a href="#">pro</a></li>
+                            </div>      
+                            <div class="p-container clearfix">
+                                <li class="p">uI design</li>
+                                <li class="btn-secondary"><a href="#">pro</a></li>
+                            </div>
+                            <div class="p-container clearfix">
+                                <li class="p">marketplace unlimited pass</li> 
+                                <li class="btn-secondary"><a href="#">pro</a></li>
+                            </div>
                         </ul>
                     </div>
                 </div>
                 <div class="col-1-of-3">
                     <div class="card1 clearfix">
-                        <ul>
-                            <li>illustrations</li>
+                        <ul class="uls">
+                            <div class="p-container">
+                                <li class="p1">flyer and brochure design</li>
+                            </div>
+                            <div class="p-container">
+                                <li class="p1">business cards and stationary</li>
+                            </div>
+                            <div class="p-container">
+                                <li class="p1">blog images</li>
+                            </div>
+                            <div class="p-container">
+                                <li class="p1">events graphics</li>
+                            </div>
+                            <div class="p-container">
+                                <li class="p1">podcasts graphics</li>
+                            </div>
+                            <div class="p-container">
+                                <li class="p1">book cover</li>
+                            </div>
+                            <div class="p-container">
+                                <li class="p1">minor edits to your existing design</li>
+                            </div>
                         </ul>
                     </div>
+                </div>
+                <div class="col-1-of-3">
                     <div class="card1 clearfix">
-                        <ul>
-                            <li>icons</li>
-                        </ul>
-                    </div>
-                    <div class="card1 clearfix">
-                        <ul>
-                            <li>static banner ads</li>
-                        </ul>
-                    </div>
-                    <div class="card1 clearfix">
-                        <ul>
-                            <li>web/app banner</li>
-                        </ul>
-                    </div>
-                    <div class="card1 clearfix">
-                        <ul>
-                            <li>email images</li>
-                        </ul>
-                    </div>
-                    <div class="card1 clearfix">
-                        <ul>
-                            <li>social media images</li>
-                        </ul>
-                    </div>
-                    <div class="card1 clearfix">
-                        <ul>
-                            <li>appstors/playstore app design</li>
+                        <ul class="uls">
+                            <div class="p-container">
+                                <li class="p1">illustrations</li>
+                            </div>
+                            <div class="p-container">
+                                <li class="p1">icons</li>
+                            </div>
+                            <div class="p-container">
+                                <li class="p1">static banner ads</li>
+                            </div>
+                            <div class="p-container">
+                                <li class="p1">web/app banner</li>
+                            </div>
+                            <div class="p-container">
+                                <li class="p1">email images</li>
+                            </div>
+                            <div class="p-container">
+                                <li class="p1">social media images</li>
+                            </div>
+                            <div class="p-container">
+                                <li class="p1">appstors/playstore app design</li>
+                            </div>
                         </ul>
                     </div>
                 </div>
