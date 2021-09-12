@@ -171,6 +171,10 @@ h2 {
     font-weight: bold;
 }
 
+.class a {
+    color: #f4f6f7;
+}
+
 .card {
     background-color: #fcfcfc;
     padding: 2rem;
@@ -319,10 +323,10 @@ footer {
     display: block;
     content: "";
 }
-/* 
+
 @media only screen and (max-width: 1024px) {
     
-}  */
+} 
 
 @media only screen and (max-width: 600px) {
 
@@ -337,7 +341,7 @@ footer {
          padding-left: 0;
      }
 
-    .nav-left, .nav-right {
+    .nav-left, nav {
          width: 100%;
     }
 
@@ -346,14 +350,14 @@ footer {
         padding-left: 0;
     }
 
-    .nav-right {
+    nav {
         margin: 1rem auto;
     }
 
 
-     ul li {
+    /* .ul li {
         padding-right: 10px 10px 10px 0px;
-    }
+    } */
 
      .first-left, .first-right {
          float: none;
@@ -395,10 +399,18 @@ footer {
      }
 
      .btn-primary {
-        padding: .5rem 0;
+        padding: 1rem 0;
         padding-left: 1rem;
         padding-right: 2rem;
         font-size: 1rem;
+        /* color: #fff6f7; */
+    }
+
+  
+    
+    .class {
+         margin: 2rem 13rem;
+         margin-bottom: 0;
      }
 
      .than {
@@ -425,9 +437,9 @@ footer {
         max-width: 400px;
      }
 
-     [class^="col-"] {
+     /* [class^="col-"] {
         float: none;
-    }
+    } */
 
     .col-1-of-3 {
         width: 100%;
@@ -437,6 +449,10 @@ footer {
         width: 400px;
         height: 25rem;
         margin-bottom: var(--space);
+    }
+
+    .card1 {
+        margin: 0;
     }
 
      h3 {
