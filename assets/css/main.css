@@ -325,7 +325,35 @@ footer {
 }
 
 @media only screen and (max-width: 1024px) {
-    
+    h1 {
+        font-size: 4rem;   
+    }
+
+    h4, h2 {
+        text-align: center;
+    }
+
+    .h2 {
+        font-size: 3rem;
+        margin-bottom: 5rem;
+    }
+
+    .row {
+        max-width: 900px;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    .img, .img2 {
+        width: 21%;
+        padding: 1rem;
+    }
+
+    .list {
+        max-width: 350px;
+    }
 } 
 
 @media only screen and (max-width: 600px) {
