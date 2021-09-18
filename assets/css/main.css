@@ -324,9 +324,106 @@ footer {
     content: "";
 }
 
+
+
+@media only screen and (max-width:  768px) {
+    .nav-left {
+        width: 30%;
+        padding-left: 2rem;
+    }
+
+    nav {
+        width: 70%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .first-left .logo {
+        width: 19rem;
+        /* height: 100%; */
+    }
+
+    .first-left {
+        width: 35%;
+    }
+
+    .first-right {
+        width: 60%;
+    }
+
+
+    .second-main h2 {
+        font-size: 2.5rem;
+    }
+
+    .first-main ul {
+        margin-top: 2rem;
+    }
+
+    .part li {
+        font-size: 1.5rem;
+    }
+
+    .class {
+        margin: 2rem 9rem;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+
+    .card h3 {
+        font-size: 1.6rem;
+    }
+
+    .words {
+        font-size: 1.5rem;
+    }
+
+    .card .img {
+        height: 5rem;
+        width: 29%;
+    }
+
+
+    .card .img2 {
+        height: 5rem;
+        width: 29%;
+    }
+
+    .images {
+        width: 3rem;
+    }
+
+    .second-center .row {
+        max-width: 700px;
+    }
+
+
+    .footer-container .row {
+        max-width: 700px;
+    }
+
+    .btn-secondary {
+        width: 4rem;
+    }
+
+    .p {
+        width: 16rem;
+    }
+
+}
+
 @media only screen and (max-width: 1024px) {
     h1 {
-        font-size: 4rem;   
+        font-size: 3rem;   
     }
 
     h4, h2 {
@@ -356,156 +453,190 @@ footer {
     }
 } 
 
-@media only screen and (max-width: 600px) {
-
-    .nav-container {
-        padding-top: 1rem;
-    }
-
-
-    .head {
-         text-transform: uppercase;
-         text-align: center;
-         padding-left: 0;
-     }
-
-    .nav-left, nav {
-         width: 100%;
-    }
-
-    .nav-left {
-        margin: 1rem auto;
-        padding-left: 0;
-    }
-
-    nav {
-        margin: 1rem auto;
-    }
-
-
-    /* .ul li {
-        padding-right: 10px 10px 10px 0px;
-    } */
-
-     .first-left, .first-right {
-         float: none;
-     }
-
-     h1 {
-         font-size: 5rem;
-         padding-left: 3rem;
-     }
-
-     .image-container {
-         width: 40rem;
-     }
-
-
-     img {
-         width: 30rem;
-         height: 40rem;
-     }
-
-     p {
-         font-size: 2rem;
-         padding-left: 3rem;
-     }
-
-     .first-main ul {
-        font-size: 1.5rem;
-        padding-left: 0;
-        margin-top: 3rem;
-     }
-
-     .first-main li {
-        padding-bottom: 2rem;
-     }
-
-     .btn {
-         margin: 2rem auto;
-         padding-left: 18rem;
-     }
-
-     .btn-primary {
-        padding: 1rem 0;
-        padding-left: 1rem;
-        padding-right: 2rem;
-        font-size: 1rem;
-        /* color: #fff6f7; */
-    }
-
-  
     
-    .class {
-         margin: 2rem 13rem;
-         margin-bottom: 0;
-     }
 
-     .than {
-         padding-left: 5rem;
-         font-size: 1.5rem;
-         margin-top: 2rem;
-     }
-
-     h4, h2 {
-        margin-left: 4rem;
-        text-align: center;
-     }
-
-     h4 {
-         font-size: 1.5rem;
-     }
-
-     h2 {
-         font-size: 3rem
-     }
-
-     .row {
-        margin: 5rem auto;
-        max-width: 400px;
-     }
-
-     /* [class^="col-"] {
+@media only screen and (max-width:  425px) {
+    .nav-left, nav {
         float: none;
-    } */
-
-    .col-1-of-3 {
         width: 100%;
     }
 
-    .card {
-        width: 400px;
-        height: 25rem;
-        margin-bottom: var(--space);
+    .nav-left {
+        padding-left: 0;
+        /* width: 100%; */
+        font-size: 4rem;
+    }
+    
+    .head {
+        text-align: center;
+        text-transform: uppercase;
     }
 
-    .card1 {
-        margin: 0;
+    nav .ul {
+        padding-left: 0;
     }
 
-     h3 {
-         font-size: 2rem;
-         padding-left: 3rem;
-     }
+    .name {
+        padding-left: 3rem;
+    }
 
-     .images {
-         /* padding-left: 3rem; */
-         width: 100%;
-         height: 100%;
-     }
+    .ul li {
+        padding-right: 0;
+    }
 
-     .words {
-         font-size: 1.5rem;
-     }
+    .first-left, .first-right {
+        float: none;
+    }
 
-     .img, .img2 {
-        height: 6rem;
-        width: 17%;
-        padding: 1rem;
-        margin-left: 3rem;
+    .first-left .image-container {
+        overflow: visible;
+    }
+
+    .first-left .logo {
+        width: 25rem;
+    }
+
+    .first-right {
+        text-align: left;
+        width: 100%;
+        padding-left: 2rem;
+    }
+
+    .write {
+        font-size: 1.5rem;
+    }
+
+    .first-main .ul {
+        padding-left: 2rem;
+    }
+
+    .first-main li {
+        padding-left: 3rem;
+    }
+
+    .btn-primary {
+        padding: 1rem ;
+    }
+
+    .class {
+        margin-top: 2rem;
+    }
+    
+    .first-right a {
+        font-size: 2rem;
+    }
+
+    .than {
+        padding-left: 2rem;
+    }
+
+    .second-center {
+        margin: 3rem auto;
+        margin-bottom: 0;
     }
 
     
+    [class^="col-"] {
+        float: none;
+    }
+
+    .col-1-of-3 {
+        width: 100%;
+        margin-bottom: 2rem;
+        padding: 0 3rem;
+    }
+
+    .card {
+        height: 25rem;
+    }
+
+    .card .img {
+        width: 16%;
+    }
+
+
+    .card .img2 {
+        width: 16%;
+    }
+
+    .card h3 {
+        font-size: 2rem;
+    }
+
+    .btn-btn {
+        margin-right: 1rem;
+    }
+
+    .p {
+        width: 80%;
+    }
+
+    
+
+
 }
 
+@media only screen and (max-width:  320px) {
+    
+
+    .ul a {
+        /* font-size: 1rem; */
+        padding-left: 1.2rem;
+    }
+
+    .name {
+        padding-left: .5rem;
+    }
+
+    .btn-btn {
+        padding: 1rem;
+    }
+
+    .first-left .logo {
+        width: 20rem;
+    }
+
+    .first-left {
+        width: 100%;
+        padding-left: 6rem;
+    }
+
+    .first-main li {
+        font-size: 1.2rem;
+        padding-left: 0;
+        padding-right: 1.4rem;
+    }
+
+    .first-right {
+        padding-right: 1rem;
+    }
+
+    .btn-primary {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    .ul .class {
+        margin: 1rem;
+        margin-top: 2rem;
+        padding-left: 5rem;
+    }
+
+    .second-main h2 {
+        font-size: 2rem;
+    }
+
+    .card .img {
+        width: 24%;
+    }
+
+
+    .card .img2 {
+        width: 24%;
+    }
+
+    .card h3 {
+        margin-top: 2rem;
+    }
+}
 
